@@ -1,0 +1,3 @@
+#!/usr/bin/env python
+import use_logging
+use_logging.main()

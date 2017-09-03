@@ -1,0 +1,11 @@
+env*
+*.swp
+*.pyc
+*.egg-info
+.idea
+build
+dist*
+*test_artifact
+.coverage
+.tox
+.cache

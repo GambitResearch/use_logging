@@ -1,0 +1,14 @@
+from foo import bar
+import collections
+from __future__ import print_function
+
+
+def make_string():
+	return 'foobar'
+
+print('this is a test')
+print 'this is another test '
+print('with basic %s %s' % ('string', 'formatting.'))
+print 'another with %s' % 'formatting'
+print 'more{}'.format(' stuff')
+print 'yet more %s' % make_string()

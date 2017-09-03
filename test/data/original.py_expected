@@ -1,0 +1,16 @@
+from foo import bar
+import collections
+from __future__ import print_function
+import logging
+logger = logging.getLogger(__name__)
+
+
+def make_string():
+	return 'foobar'
+
+logger.info('this is a test')
+logger.info('this is another test ')
+logger.info('with basic %s %s', 'string', 'formatting.')
+logger.info('another with %s', 'formatting')
+logger.info('more{}'.format(' stuff'))
+logger.info('yet more %s', make_string())
