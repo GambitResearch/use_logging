@@ -29,7 +29,5 @@ ToDo
 ------------------------
 1. Any more tests?
 
-1. Publish on pypi.
-
 1. Rest of stuff in https://github.com/vitorbaptista/pyconuk_helloworld (bandit, manifest/+check)
 
